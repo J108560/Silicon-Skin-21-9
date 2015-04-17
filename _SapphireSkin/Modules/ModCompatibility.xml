@@ -1,0 +1,253 @@
+<UIView>
+ 
+  <!-- No pillars -->
+ 	<!-- first button -->
+	<Component name="UIButton" hash="1B0CDBFE9" optional="true">
+		<relativePosition>20.0, 900.0</relativePosition>
+		<size>80.0, 24.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<textHorizontalAlignment>Center</textHorizontalAlignment>
+		<textVerticalAlignment>Middle</textVerticalAlignment>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+
+	<Component name="UIButton" hash="1C2A3B989" optional="true">
+	
+		<relativePosition aspect="16:10">20.0, 900.0</relativePosition>
+		
+		<size>80.0, 24.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<textHorizontalAlignment>Center</textHorizontalAlignment>
+		<textVerticalAlignment>Middle</textVerticalAlignment>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+ 
+ 	<!-- second button -->
+	<Component name="UIButton" hash="180411189" optional="true">
+		<relativePosition>20.0, 930.0</relativePosition>
+		<size>80.0, 24.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<textHorizontalAlignment>Center</textHorizontalAlignment>
+		<textVerticalAlignment>Middle</textVerticalAlignment>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+ 
+	<Component name="UIButton" hash="1F22F17E9" optional="true">
+		<relativePosition aspect="16:10">20.0, 930.0</relativePosition>
+		<size>80.0, 24.0</size>
+		<textColor raw="true">255, 255, 255, 255</textColor>
+		<textScale>0.7</textScale>
+		<textHorizontalAlignment>Center</textHorizontalAlignment>
+		<textVerticalAlignment>Middle</textVerticalAlignment>
+		<normalBgSprite>ButtonMenu</normalBgSprite>
+		<hoveredBgSprite>ButtonMenuHovered</hoveredBgSprite>
+		<pressedBgSprite>ButtonMenuPressed</pressedBgSprite>
+		<focusedBgSprite>ButtonMenuFocused</focusedBgSprite>
+		<disabledBgSprite>ButtonMenuDisabled</disabledBgSprite>
+	</Component>
+ 
+ 
+ <!-- Extended road upgrade -->
+	<Component name="TSBar">
+		<Component name="OptionsBar">
+			<Component name="(RoadsOptionPanel|RoadsOptionPanel\(RoadsPanel\))" name_regex="true" optional="true">
+				<Component name="ExtendedRoadUpgradePanel" optional="true">
+					<relativePosition>140.0, 0.0</relativePosition>
+ <padding>3,0,0,0</padding>
+					<Component name="ExtendedRoadUpgradeButtonTwoWay">
+						<size>36.0, 36.0</size>
+  <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+						<normalBgSprite></normalBgSprite>
+						<hoveredBgSprite></hoveredBgSprite>
+						<pressedBgSprite></pressedBgSprite>
+						<focusedBgSprite></focusedBgSprite>
+						<disabledBgSprite></disabledBgSprite>
+ 
+						<normalFgSprite>ExtendedRoadUpgradeButtonTwoWay</normalFgSprite>
+						<hoveredFgSprite>ExtendedRoadUpgradeButtonTwoWayHovered</hoveredFgSprite>
+						<pressedFgSprite>ExtendedRoadUpgradeButtonTwoWayPressed</pressedFgSprite>
+						<focusedFgSprite>ExtendedRoadUpgradeButtonTwoWayFocused</focusedFgSprite>
+						<disabledFgSprite>ExtendedRoadUpgradeButtonTwoWayDisabled</disabledFgSprite>
+					</Component> 
+					<Component name="ExtendedRoadUpgradeButtonOneWay">
+<size>36.0, 36.0</size>
+  <atlas>IconsAtlas</atlas>
+                    <size>22.0,22.0</size>
+ 
+						<normalBgSprite></normalBgSprite>
+						<hoveredBgSprite></hoveredBgSprite>
+						<pressedBgSprite></pressedBgSprite>
+						<focusedBgSprite></focusedBgSprite>
+						<disabledBgSprite></disabledBgSprite>
+ 
+						<normalFgSprite>ExtendedRoadUpgradeButtonOneWay</normalFgSprite>
+						<hoveredFgSprite>ExtendedRoadUpgradeButtonOneWayHovered</hoveredFgSprite>
+						<pressedFgSprite>ExtendedRoadUpgradeButtonOneWayPressed</pressedFgSprite>
+						<focusedFgSprite>ExtendedRoadUpgradeButtonOneWayFocused</focusedFgSprite>
+						<disabledFgSprite>ExtendedRoadUpgradeButtonOneWayDisabled</disabledFgSprite>
+					</Component>
+				</Component>
+			</Component>
+		</Component>
+	</Component>
+ 
+	<!-- City vitals -->
+	
+	
+	<Component name="CityVitalsWatchButton" optional="true">
+	<atlas>IconsAtlas</atlas>
+		<size>48.0, 48.0</size>
+		<foregroundSpriteMode>Fill</foregroundSpriteMode>
+		<relativePosition>150.0, 18.0</relativePosition>
+ 
+		<normalBgSprite></normalBgSprite>
+		<hoveredBgSprite></hoveredBgSprite>
+		<pressedBgSprite></pressedBgSprite>
+		<focusedBgSprite></focusedBgSprite>
+		<disabledBgSprite></disabledBgSprite>
+ 
+		<normalFgSprite>CityVitalsButtonNormal</normalFgSprite>
+		<hoveredFgSprite>CityVitalsButtonHovered</hoveredFgSprite>
+		<pressedFgSprite>CityVitalsButtonPressed</pressedFgSprite>
+		<focusedFgSprite>CityVitalsButtonFocused</focusedFgSprite>
+		<disabledFgSprite>CityVitalsButtonDisabled</disabledFgSprite>
+		
+		<Component name="CityVitalsWatchButtonDragHandler"> 
+	<tooltip>City Vitals Watch</tooltip> 
+	</Component>
+		
+	</Component>
+	
+	
+ 
+<Component name="CityVitalsWatchPanel" optional="true">
+		<atlas>Backgrounds</atlas>
+		<backgroundSprite>SubcategoriesPanel</backgroundSprite>
+		<color>White</color>
+		
+ 
+		<Component name=".*" name_regex="true" recursive="true">
+			<textColor optional="true">Green</textColor>
+			
+		</Component>
+	</Component>
+	
+	<!-- Terraform tool -->
+	<Component name="TSBar">
+		<Component name="MainToolstrip">
+			<Component name="TerrainButton" optional="true">
+				<normalBgSprite>ToolbarIconTerrain</normalBgSprite>
+				<hoveredBgSprite>ToolbarIconTerrainHovered</hoveredBgSprite>
+				<pressedBgSprite>ToolbarIconTerrainPressed</pressedBgSprite>
+				<focusedBgSprite>ToolbarIconTerrainFocused</focusedBgSprite>
+				<disabledBgSprite>ToolbarIconTerrainDisabled</disabledBgSprite>
+		 
+		 		<tooltip>Terrain</tooltip>
+		 		<atlas>IconsAtlas</atlas>
+		 		<size>48.0, 48.0</size>
+ 
+               <foregroundSpriteMode>Fill</foregroundSpriteMode>
+			</Component>
+		</Component>
+		
+		<Component name="TSContainer">
+			<Component name="TerraformPanel" optional="true">
+				<atlas>Backgrounds</atlas>
+				
+                <backgroundSprite>SubcategoriesPanel</backgroundSprite>
+ <size>96.0, 96.0</size>
+                           
+				<Component name="UIButton" hash="13BAE27F">
+					<tooltip>Ditch</tooltip>
+				</Component>
+ 
+				<Component name="UIButton" hash="54651BD9">
+					<tooltip>Shift</tooltip>
+				</Component>
+ 
+				<Component name="UIButton" hash="95546E72">
+					<tooltip>Soften</tooltip>
+				</Component>
+ 
+				<Component name="UIButton" hash="D583086D">
+					<tooltip>Level</tooltip>
+				</Component>
+ 
+				<Component name="UIButton" hash="1164E01D7">
+					<tooltip>Slope</tooltip>
+				</Component>
+ 
+				<Component name="UIButton" hash="157BC9460">
+					<tooltip>Add sand</tooltip>
+				</Component>
+ 
+			</Component>
+		</Component>
+	</Component>
+ 
+<!-- FPS Camera -->
+	<Component name="FPSCameraConfigurationButton" optional="true">
+		<normalBgSprite></normalBgSprite>
+		<hoveredBgSprite></hoveredBgSprite>
+		<pressedBgSprite></pressedBgSprite>
+		<focusedBgSprite></focusedBgSprite>
+		<disabledBgSprite></disabledBgSprite>
+ 
+		<normalFgSprite>FPSCameraConfigurationButton</normalFgSprite>
+		<hoveredFgSprite>FPSCameraConfigurationButtonHovered</hoveredFgSprite>
+		<pressedFgSprite>FPSCameraConfigurationButtonPressed</pressedFgSprite>
+		<focusedFgSprite>FPSCameraConfigurationButtonFocused</focusedFgSprite>
+		<disabledFgSprite>FPSCameraConfigurationButtonDisabled</disabledFgSprite>
+             <relativePosition>2350.0, 18.0</relativePosition>
+
+		<atlas>IconsAtlas</atlas>
+		<size>48.0, 48.0</size>
+		
+	</Component>
+	
+<!-- Sapphire -->	
+	   <Component name="SapphireButton">
+        <atlas>IconsAtlas</atlas>
+        <size>48.0, 48.0</size>
+        <relativePosition>2400.0, 18.0</relativePosition>
+
+        <isVisible>true</isVisible>
+        <normalFgSprite>SapphireNormal</normalFgSprite>
+        <hoveredFgSprite>SapphireHovered</hoveredFgSprite>
+        <pressedFgSprite>SapphirePressed</pressedFgSprite>
+    </Component>
+ 
+    <Component name="SapphireSkinManager">
+        <relativePosition>1584.0, 94.0</relativePosition>
+        <relativePosition aspect="16:10">1394.0, 94.0</relativePosition>
+    </Component>
+    
+    <!-- Toggle Zoning -->
+	<Component name="TSBar">
+		<Component name="OptionsBar">
+			<Component name="(RoadsOptionPanel|RoadsOptionPanel\(RoadsPanel\))" name_regex="true" optional="true">
+				<Component name="ZoningToggle" optional="true">
+					<relativePosition>-20.0, 0.0</relativePosition>
+					<size>22.0, 22.0</size>
+				</Component>
+			</Component>
+		</Component>
+	</Component>    
+    
+</UIView>

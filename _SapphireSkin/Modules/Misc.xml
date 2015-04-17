@@ -1,0 +1,22 @@
+<UIView>
+    <Component name="FullScreenContainer">
+        <isVisible>true</isVisible>
+ 
+        <Component name="PauseOutline">
+            <atlas>Backgrounds</atlas>
+            <spriteName>PauseOutline</spriteName>
+            
+            
+            <relativePosition>0.0, 0.0</relativePosition>
+        </Component>
+        
+    </Component>
+    <Component name="ThumbnailBar">
+        <isVisible>false</isVisible>
+    </Component>
+ 
+ 
+</UIView>
+
+
+
